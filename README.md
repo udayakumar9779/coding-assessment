@@ -19,3 +19,7 @@ npm install [OR] yarn install
 Runs the app in the development mode.\
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+### `npm run lint`
+
+Linting: ESLint is configured to enforce best practices and avoid common errors.
