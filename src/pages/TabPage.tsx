@@ -1,10 +1,10 @@
-import React, { useState } from "react";
-import Heading from "../components/Heading/Heading";
-import Paragraph from "../components/Paragraph/Paragraph";
-import Tabs from "../components/Tabs/Tabs";
-import pageContent from "../constants/data/data";
-import tabData from "../constants/data/tabData";
-import "./TabPage.css";
+import React, { useState } from 'react';
+import Heading from '../components/Heading/Heading';
+import Paragraph from '../components/Paragraph/Paragraph';
+import Tabs from '../components/Tabs/Tabs';
+import pageContent from '../constants/data/data';
+import tabData from '../constants/data/tabData';
+import './TabPage.css';
 
 const TabPage: React.FC = () => {
   const [activeTab, setActiveTab] = useState<number>(0);

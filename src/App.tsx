@@ -1,6 +1,6 @@
-import React from "react";
-import "./App.css";
-import TabPage from "./pages/TabPage";
+import React from 'react';
+import './App.css';
+import TabPage from './pages/TabPage';
 
 const App: React.FC = () => {
   return (

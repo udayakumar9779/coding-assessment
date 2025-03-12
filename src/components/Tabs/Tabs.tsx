@@ -1,6 +1,6 @@
-import React from "react";
-import Tab from "../Tab/Tab";
-import "./Tabs.css";
+import React from 'react';
+import Tab from '../Tab/Tab';
+import './Tabs.css';
 
 interface TabData {
   title: string;

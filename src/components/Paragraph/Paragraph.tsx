@@ -1,5 +1,5 @@
-import React from "react";
-import "./Paragraph.css";
+import React from 'react';
+import './Paragraph.css';
 
 interface ParagraphProps {
   text: string;
