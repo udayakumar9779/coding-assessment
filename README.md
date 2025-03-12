@@ -23,3 +23,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 ### `npm run lint`
 
 Linting: ESLint is configured to enforce best practices and avoid common errors.
+
+## 'npm run format'
+
+Formatting: Prettier is used to ensure a consistent code style.
+
