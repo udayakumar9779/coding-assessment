@@ -1,8 +1,4 @@
-interface PageContent {
-  h1: string;
-  h3: string;
-  p: string;
-}
+import { PageContent } from '../../interface/datainterface';
 
 const pageContent: PageContent = {
   h1: '  Unlocking Potential Through Strategy',

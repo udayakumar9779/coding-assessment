@@ -1,8 +1,4 @@
-interface TabData {
-  title: string;
-  heading: string;
-  content: string;
-}
+import { TabData } from '../../interface/datainterface';
 
 const tabData: TabData[] = [
   {

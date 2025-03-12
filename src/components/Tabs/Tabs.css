@@ -7,4 +7,5 @@
   border: 2px solid var(--border-color);
   border-radius: 15px;
   background: white;
+  width: 600px;
 }
