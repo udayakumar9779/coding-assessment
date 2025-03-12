@@ -11,7 +11,7 @@ const TabPage: React.FC = () => {
 
   return (
     <div className="tab-panel-container">
-      <h3 className="tab-panel-subtitle">{pageContent.h3}</h3>
+      <h3 className="tab-panel-subtitle subtitle">{pageContent.h3}</h3>
       <h1 className="tab-panel-title">{pageContent.h1}</h1>
       <p className="tab-panel-description">{pageContent.p}</p>
       <Tabs tabs={tabData} activeTab={activeTab} setActiveTab={setActiveTab} />
@@ -24,5 +24,3 @@ const TabPage: React.FC = () => {
 };
 
 export default TabPage;
-
-
