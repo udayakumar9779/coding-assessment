@@ -25,7 +25,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint src --ext .ts,.tsx --fix",
-    "format": "prettier --write 'src/**/*.{ts,tsx,js,jsx,json,md}'"
+    "format": "prettier --write 'src/**/*.{ts,tsx,js,jsx,json,md}'",
+    "prepare": "husky"
   },
   "eslintConfig": {
     "extends": [
@@ -55,6 +56,8 @@
     "eslint-plugin-prettier": "^5.2.3",
     "eslint-plugin-react": "^7.37.4",
     "eslint-plugin-react-hooks": "^5.2.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.5.0",
     "prettier": "^3.5.3"
   }
 }
