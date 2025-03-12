@@ -1,0 +1,6 @@
+@import "../../styles/variables.css";
+
+.heading {
+  font-size: var(--font-md);
+  font-weight: var(--font-medium);
+}

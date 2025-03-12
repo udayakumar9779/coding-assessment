@@ -1,0 +1,27 @@
+@import "../../styles/variables.css";
+
+.tab {
+  .tab-button {
+    padding: 12px 20px;
+    border: none;
+    background-color: transparent;
+    font-size: var(--font-sm);
+    cursor: pointer;
+    outline: none;
+  }
+
+  .tab-button.active {
+    border-bottom: 3px solid var(--primary-color);
+    color: var(--text-primary);
+    font-weight: var(--font-medium);
+  }
+
+  .tab-button.inactive {
+    color: var(--text-secondary);
+    font-weight: var(--font-light);
+  }
+
+  .tab-button:not(:last-child) {
+    border-right: 1px solid var(--border-color);
+  }
+}

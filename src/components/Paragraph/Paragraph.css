@@ -1,0 +1,6 @@
+@import "../../styles/variables.css";
+
+.paragraph {
+  color: var(--text-secondary);
+  margin-top: var(--margin-xs);
+}

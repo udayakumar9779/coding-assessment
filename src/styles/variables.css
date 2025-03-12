@@ -1,0 +1,22 @@
+:root {
+  --primary-color: #206090;
+  --text-primary: #111827;
+  --text-secondary: #6b7280;
+  --background-light: #f5fefa;
+  --border-color: lightgray;
+  --subtitle-color: #44759d;
+
+  --font-xs: 14px;
+  --font-sm: 16px;
+  --font-md: 20px;
+  --font-lg: 32px;
+
+  --font-light: 400;
+  --font-medium: 600;
+  --font-bold: bold;
+
+  --margin-xs: 10px;
+  --margin-sm: 20px;
+  --margin-md: 30px;
+  --margin-lg: 40px;
+}
